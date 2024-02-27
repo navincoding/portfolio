@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive personal portfolio</title>
+
+    <!-- font cdn awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <!-- header section start -->
+        
+    <header>
+
+        <div class="user">
+            <img src="./img/dp.jpg" alt="dp">
+            <h3 class="name">Navin Kumar</h3>
+            <p class="post">front end developer</p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#education">education</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- header section end -->
+
+    <div id="menu" class="fas fa-bars">
+        
+    </div>
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+
+        <h3>HI THERE !</h3>
+        <h1>I'M <span>Navin kumar</span></h1>
+        <p>The front End Developer is responsibe for designing,implementing,and maintaining the user interface components of web 
+            applications and websites.They collaborate closely with designers,Back-end developer,and other stakeholder to deliver 
+            high-quality,user-centric digital experiences.Develop and implement user interface components using HTML,CSS and JavaScript.</p>
+        <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"><span>about</span>me</h1>
+
+        <div class="row">
+            <div class="info">
+                <h3><span> name :</span>Navin kumar</h3>
+                <h3><span> age :</span>22</h3>
+                <h3><span>qualification :</span> B.com</h3>
+                <h3><span>post :</span> front end developer</h3>
+                <h3><span>language :</span> english</h3>
+                <a href="./img/resume.pdf" download><button class="btn">download CV <i class="fas fa-download"></i></button></a>
+            </div>    
+
+            <div class="counter">
+
+                <div class="box">
+                    <span>1+</span>
+                    <h3>years of experience</h3>
+                </div>
+
+                <div class="box">
+                    <span>10+</span>
+                    <h3>project completed</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- education section starts -->
+
+    <section class="education" id="education">
+
+        <h1 class="heading"><span>education</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2019- 2022</span>
+                <h3>Bachelor of Commerce</h3>
+                <p>Detail-oriented and motivated B.Com graduate with a strong foundation in accounting principles and financial analysis.Seeking a challenging position in accounting or finance where i can leverage my skills and knowledge to contributen to the success of the organization.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2022-24</span>
+                <h3>front end developer</h3>
+                <p>Dynamic and motivated Front End Developer with a passion for creating engaging user experiences.Seeking an entry-level position in front-end development where i can utilize my skills in HTML,CSS and JavaScript to contribute to innovative projects and enhance my expertise in web development</p>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!-- education section ends -->
+
+    <!-- portfolio section starts -->
+
+    <section class="portfolio" id="portfolio">
+
+        <h1 class="heading">my <span>portfolio</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./img/01.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="./img/02.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="./img/03.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="./img/04.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="./img/05.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="./img/06.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- portfolio section ends -->
+
+    <!-- contact section starts -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"><span>contact</span></h1>
+
+        <div class="row">
+
+            <div class="contact">
+
+                <h3 class="title">contact info</h3>
+                
+                <div class="info">
+                    <h3><i class="fas fa-envelope"></i> navinkumarnd0401@gmail.com</h3>
+                    <h3><i class="fas fa-phone"></i> +91 9080109993</h3>
+                    <h3><i class="fas fa-map-marker-alt"></i> madurai,tamilnadu</h3>
+                </div>
+
+            </div>
+
+            <form action="">
+
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="text" placeholder="project" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i></button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- scroll top button starts -->
+
+    <a href="#home" class="top">
+        <img src="./img/boost.png" style="width:4rem; height: 6rem;" alt="">
+    </a>
+
+    <!-- scroll top button ends-->
+
+
+    <!-- jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
